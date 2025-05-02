@@ -9,3 +9,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-message {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #00acee;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  height: 20%;
+  margin-bottom: 10px;
+}
+
+.message {
+  display: flex;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

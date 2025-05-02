@@ -2,6 +2,7 @@
   "name": "websocket",
   "version": "1.0.0",
   "description": "training to websocket with React & Node.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
